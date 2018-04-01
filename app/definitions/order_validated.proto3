@@ -1,0 +1,10 @@
+syntax = "proto3";
+package protobuf_events;
+
+message OrderValidated {
+  string event_id = 1;
+  string order_id = 2;
+  string creator_id = 3;
+  string brand_id = 4;
+  string product_id = 5;
+}
